@@ -1,0 +1,22 @@
+{
+  "name": "gradient-generator",
+  "version": "1.0.0",
+  "description": "ZTM Project",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnleosamante/gradient-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnleosamante/gradient-generator/issues"
+  },
+  "homepage": "https://github.com/johnleosamante/gradient-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}

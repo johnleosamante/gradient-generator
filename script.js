@@ -3,12 +3,12 @@ const color1 = document.querySelector(".color1");
 const color2 = document.querySelector(".color2");
 const body = document.getElementById("gradient");
 
-setGradient = () => {
+const setGradient = () => {
   body.style.background = linearGradient();
   css.textContent = body.style.background + ";";
 }
 
-linearGradient = () => `linear-gradient(to right, ${color1.value}, ${color2.value})`;
+const linearGradient = () => `linear-gradient(to right, ${color1.value}, ${color2.value})`;
 
 setGradient();
 
